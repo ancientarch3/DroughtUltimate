@@ -1,36 +1,111 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About US</title>
-    <link rel="stylesheet" href="style.css">
-    <img src="Logo.jpg" style="width:80%;">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Drought Ultimate | About Us</title>
+
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <nav>
-        <input type="checkbox" id="sidebar-active">
-        <label for="sidebar-active" class="open-sidebar-button">
-          <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-        </label>
-        <label id="overlay" for="sidebar-active"></label>
-        <div class="links-container">
-          <label for="sidebar-active" class="close-sidebar-button">
-            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
-          </label>
-    
-          <a class="home-link" href="index.html">Home</a> <!-- link for homepage -->
-          <a href="About_Us.html">About Us</a> 
-          <a href="Shop_Ultimate.html">Shop Ultimate</a>
-          <a href="News_About_Ultimate.html">News About Ultimate</a>
-          <a href="Faqs.html">FAQS</a>
-          <a href="Contact_Us.html">Contact Us!</a>
-          
+  <nav class="navbar">
+    <input type="checkbox" id="sidebar-active" />
+
+    <label for="sidebar-active" class="open-sidebar-button" aria-label="Open navigation menu">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+      </svg>
+    </label>
+
+    <label id="overlay" for="sidebar-active"></label>
+
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button" aria-label="Close navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32">
+          <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+        </svg>
+      </label>
+
+      <a class="home-link" href="index.html">Home</a>
+      <a href="About_Us.html">About Us</a>
+      <a href="Shop_Ultimate.html">Shop Ultimate</a>
+      <a href="News_About_Ultimate.html">News About Ultimate</a>
+      <a href="Faqs.html">FAQs</a>
+      <a href="Contact_Us.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <img src="assets/Logo.jpg" alt="Drought Ultimate logo" class="page-logo" />
+
+    <p class="eyebrow">About the Team</p>
+    <h1>Drought Ultimate</h1>
+
+    <p>
+      Phoenix, Arizona’s competitive open division ultimate frisbee team.
+    </p>
+  </header>
+
+  <main class="about-wrapper">
+    <section class="about-card">
+      <h1>Who We Are</h1>
+
+      <p>
+        We are Drought Ultimate, a Phoenix-based ultimate frisbee team competing in the open division.
+        Our team represents the Southwest ultimate community through competition, teamwork, and Spirit of the Game.
+      </p>
+
+      <p>
+        We focus on athletic development, smart field movement, strong communication, and building a team culture where players can compete hard while respecting the game.
+      </p>
+
+      <div class="stats-grid">
+        <div class="stat-box">
+          <strong>100th</strong>
+          <span>National Ranking</span>
         </div>
-      </nav>
-    <h2><p>We're Drought Ultimate, Phoenix AZ's Premier Ultimate Frisbee team! We compete in Men's open
-      division. We're currently ranked 100th in the nation and 8th in the Southwest region.
-    </p></h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ODcz2P1ZlT4?si=nx2r9_MkV9VYH_wh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div class="stat-box">
+          <strong>8th</strong>
+          <span>Southwest Region</span>
+        </div>
+
+        <div class="stat-box">
+          <strong>AZ</strong>
+          <span>Phoenix Based</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-card">
+      <h1>Our Team Culture</h1>
+
+      <p>
+        Drought Ultimate is built around effort, accountability, and trust. We believe great ultimate comes from players who are willing to learn, communicate, and support each other on and off the field.
+      </p>
+
+      <p>
+        Whether you are watching, learning about ultimate, or interested in joining the community, our goal is to represent Phoenix ultimate with pride.
+      </p>
+    </section>
+
+    <section>
+      <div class="video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/ODcz2P1ZlT4?si=nx2r9_MkV9VYH_wh" 
+          title="Drought Ultimate video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Drought Ultimate. Phoenix, Arizona.</p>
+  </footer>
 </body>
 </html>
